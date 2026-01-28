@@ -1,0 +1,39 @@
+{
+  "dataset": "support_groups_full_164_loo",
+  "model": "mf_baseline",
+  "seed": 42,
+  "entity": "user",
+  "repr": "main",
+  "projection_method": "tsne",
+  "preprocessing": {
+    "normalize_l2": true,
+    "pca_dim": null
+  },
+  "umap_params": {
+    "n_neighbors": 15,
+    "min_dist": 0.1,
+    "spread": 1.0,
+    "repulsion_strength": 1.0,
+    "metric": "cosine",
+    "random_state": 42
+  },
+  "tsne_params": {
+    "perplexity": 15.0,
+    "learning_rate": 200.0,
+    "max_iter": 1000,
+    "metric": "cosine",
+    "random_state": 42,
+    "init": "pca"
+  },
+  "clustering": {
+    "n_clusters": 3,
+    "method": "spherical_kmeans",
+    "cluster_space": "hd"
+  },
+  "silhouette_cosine": 0.04016801342368126,
+  "silhouette_euclidean": 0.020310672000050545,
+  "embedding_shape": [
+    166,
+    64
+  ]
+}

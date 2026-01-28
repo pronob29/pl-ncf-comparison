@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.dist-info/
+
+# Virtual environments
+.venv/
+
+# OS / editor
+.DS_Store
+
+# Local/project-specific
+.local/
+
+# Dataset / raw data (keep private)
+datasets/
+data/
+Phase1.xlsx
+Phase2.xlsx
+
+# Generated artifacts
+paper_work/
+paper/
+logs/
+runs/
+~$*.docx

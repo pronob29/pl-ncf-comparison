@@ -1,0 +1,30 @@
+{
+  "dataset": "support_groups_full_164",
+  "model": "mf_pl",
+  "seed": 122,
+  "entity": "item",
+  "repr": "pl",
+  "preprocessing": {
+    "normalize_l2": true,
+    "pca_dim": null
+  },
+  "umap_params": {
+    "n_neighbors": 15,
+    "min_dist": 0.1,
+    "spread": 1.0,
+    "repulsion_strength": 1.0,
+    "metric": "cosine",
+    "random_state": 122
+  },
+  "clustering": {
+    "n_clusters": 10,
+    "method": "spherical_kmeans",
+    "cluster_space": "hd"
+  },
+  "silhouette_cosine": 0.055809006094932556,
+  "silhouette_euclidean": 0.027721049264073372,
+  "embedding_shape": [
+    498,
+    32
+  ]
+}

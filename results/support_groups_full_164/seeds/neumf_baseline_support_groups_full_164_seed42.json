@@ -1,0 +1,13 @@
+{
+  "model": "neumf_baseline",
+  "dataset": "support_groups_full_164",
+  "seed": 42,
+  "epochs": 20,
+  "val_hr": 0.030303030303030304,
+  "val_ndcg": 0.015420947890999985,
+  "val_auc": 0.42014647150226,
+  "val_epoch": 1,
+  "test_hr": 0.02857142857142857,
+  "test_ndcg": 0.02857142857142857,
+  "test_auc": 0.40674330430289063
+}

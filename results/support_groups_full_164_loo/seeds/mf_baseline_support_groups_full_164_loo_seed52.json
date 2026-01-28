@@ -1,0 +1,13 @@
+{
+  "model": "mf_baseline",
+  "dataset": "support_groups_full_164_loo",
+  "seed": 52,
+  "epochs": 20,
+  "val_hr": 0.024096385542168676,
+  "val_ndcg": 0.010948972080168281,
+  "val_auc": 0.4614822928075941,
+  "val_epoch": 2,
+  "test_hr": 0.04819277108433735,
+  "test_ndcg": 0.026751457762636356,
+  "test_auc": 0.4753255446026532
+}

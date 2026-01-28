@@ -1,0 +1,30 @@
+{
+  "dataset": "support_groups_full_164_loo",
+  "model": "mf_pl",
+  "seed": 62,
+  "entity": "item",
+  "repr": "main",
+  "preprocessing": {
+    "normalize_l2": true,
+    "pca_dim": null
+  },
+  "umap_params": {
+    "n_neighbors": 15,
+    "min_dist": 0.1,
+    "spread": 1.0,
+    "repulsion_strength": 1.0,
+    "metric": "cosine",
+    "random_state": 62
+  },
+  "clustering": {
+    "n_clusters": 5,
+    "method": "spherical_kmeans",
+    "cluster_space": "hd"
+  },
+  "silhouette_cosine": 0.021383102983236313,
+  "silhouette_euclidean": 0.010437780059874058,
+  "embedding_shape": [
+    498,
+    96
+  ]
+}

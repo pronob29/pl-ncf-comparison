@@ -1,0 +1,13 @@
+{
+  "model": "mlp_pl",
+  "dataset": "support_groups_full_164",
+  "seed": 62,
+  "epochs": 20,
+  "val_hr": 0.015151515151515152,
+  "val_ndcg": 0.007575757575757576,
+  "val_auc": 0.4241821018633579,
+  "val_epoch": 1,
+  "test_hr": 0.014285714285714285,
+  "test_ndcg": 0.005526468674779165,
+  "test_auc": 0.35410899925823414
+}

@@ -1,0 +1,30 @@
+{
+  "dataset": "support_groups_full_164",
+  "model": "neumf_pl",
+  "seed": 122,
+  "entity": "user",
+  "repr": "pl",
+  "preprocessing": {
+    "normalize_l2": true,
+    "pca_dim": null
+  },
+  "umap_params": {
+    "n_neighbors": 15,
+    "min_dist": 0.1,
+    "spread": 1.0,
+    "repulsion_strength": 1.0,
+    "metric": "cosine",
+    "random_state": 122
+  },
+  "clustering": {
+    "n_clusters": 4,
+    "method": "spherical_kmeans",
+    "cluster_space": "hd"
+  },
+  "silhouette_cosine": 0.06626318395137787,
+  "silhouette_euclidean": 0.03126513212919235,
+  "embedding_shape": [
+    166,
+    32
+  ]
+}
